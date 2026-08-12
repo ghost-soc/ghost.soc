@@ -1,6 +1,7 @@
 # ghost.soc
 # Repo principal — framework, docs, whitepaper
-What is Ghost.SOC?
+
+**What is Ghost.SOC?**
 
 Ghost.SOC is an open-source Detection Engineering framework built for security teams of one. The operational reality of most organizations in Latin America.
 
@@ -11,7 +12,7 @@ The core thesis: Budget is not the problem. Prioritization is.
 Ghost.SOC provides a structured, replicable methodology to build meaningful detection and response capability using open-source tooling, risk-based detection engineering, and AI-assisted triage, fully operable on a standard laptop at $0 Licenses cost.
 
 
-The Five Pillars
+**The Five Pillars**
 +----+----------------------------------+----------------------------------------------------------+
 | #  |             PILLAR               |                     WHAT IT SOLVES                      |
 +----+----------------------------------+----------------------------------------------------------+
@@ -32,7 +33,7 @@ The Five Pillars
 +----+----------------------------------+----------------------------------------------------------+
 
 
-MVP1 Architecture
+**MVP1 Architecture**
 The full Ghost.SOC stack runs on a MacBook Air 2020 (8GB RAM, $0 cost):
 +------------------+----------------------------------------+-------------------------+
 |      LAYER       |                 TOOL                   |        FUNCTION         |
@@ -51,7 +52,7 @@ The full Ghost.SOC stack runs on a MacBook Air 2020 (8GB RAM, $0 cost):
 Full installation guide @https://github.com/ghost-soc/stack-mvp
 
 
-Framework Evolution
+**Framework Evolution**
 Ghost.SOC scales organically across three maturity levels, same principles, different infrastructure:
 +------------------+------------------------+------------------------+------------------------+
 |      LAYER       |       01 — MVP         |   02 — INTERMEDIATE    |   03 — OPTIMIZED       |
@@ -69,7 +70,7 @@ Ghost.SOC scales organically across three maturity levels, same principles, diff
 +------------------+------------------------+------------------------+------------------------+
 
 
-Detection Rules
+**Detection Rules**
 Ghost.SOC includes a curated and corrected set of Sigma detection rules for four LATAM-prioritized industries. We will add more industries over time. Be patient, or join the team and help us to build the future!
 +--------+------------------------------------------+--------------------+-----------+
 |   ID   |                  RULE                    |     ATT&CK         |   LEVEL   |
@@ -111,3 +112,71 @@ This is just the beginning!!!!
 All rules are validated, corrected, and documented with error analysis.
 
 Full rule set @https://github.com/ghost-soc/detection-rules
+
+
+**Community**
+Ghost.SOC is a community project. You don't need to be an expert to contribute.
+
+Three levels of participation:
+**Ghost.SOC User** — You run the framework in your organization and share your experience
+**Ghost.SOC Contributor** — You curate, test, develop Sigma rules, improve documentation, or report issues
+**Ghost.SOC Builder** — You collaborate directly on the framework's technical evolution
+
+Community hub @https://github.com/ghost-soc/community
+
+
+**Active fork projects:**
+
++ Raspberry Pi variant — low-power edge deployment
++ Intel Mac variant — pre-M1 hardware support
++ Splunk-native variant — enterprise SIEM integration
+
+ 
+**Quick Start**
+
+# Clone the stack
+git clone https://github.com/ghost-soc/stack-mvp/mvp1/stack-mvp1.git
+cd stack-mvp1
+
+# Run the setup script (macOS M-series)
+chmod +x setup.sh
+./setup.sh
+
+# Clone detection rules
+git clone https://github.com/ghost-soc/stack-mvp/mvp1/#industry#/detection-rules.git
+
+Full installation guide with step-by-step instructions @https://github.com/ghost-soc/stack-mvp/docs/installation.md
+
+
+**Presented At**
+Event: 8.8 Cybersecurity Conference Unreal Monterrey - Jul 31 2026
+
+
+**Research & Documentation**
+
+Ghost.SOC Whitepaper (ES) — Technical paper prepared for 8.8 Cybersecurity Conference Unreal 2026 and Ekoparty Argentina 2026
+LATAM Threat Context — Regional statistics and sources
+Detection Rule Analysis — Error patterns and curation of 20 analyzed rules filtered by the Top ATT&CK TTPs per industry, selected to address the LATAM Threat Context and attack statistic trends.
+
+
+**About the Author**
+
+Eli Ruiz
+
+@er_insec on X/Twitter 
+@er.insec on Instagram
+linktr.ee/er.insec
+
+23+ years defending organizations across banking, fintech, retail, manufacturing, government sectors in Latin America. 
+CISO, Security Architect, Incident Responder, and Consultant.
+
+Led several Cybersecurity incident responses since 2006, many of them as being the single security person taking critical decisions. Developed several playbooks that became the foundation of a formal SOC for many multinational companies. Co-founder and former Secretary of the Mexican Information Security Association A.C. (AMSI) (2009–2016). Former Full Professor at Autononmous University of Nuevo León (Faculty of Physical-Mathematical Sciences) in the Information Security degree program, teaching over six different courses, including Social Engineering, Insider Threats, Incident Response Strategies, BIA, BCP and DRP strategies, and others (2014–2020).
+
+
+**License**
+
+Ghost.SOC is released under the Apache License 2.0.
+Detection rules may individually carry the Detection Rule License (DRL) 1.1 when adapted from the SigmaHQ community repository.
+
+---
+Ghost.SOC // **Built under pressure, by and for those who defend with almost nothing.**
