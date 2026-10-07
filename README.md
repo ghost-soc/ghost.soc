@@ -154,7 +154,7 @@ Event: 8.8 Cybersecurity Conference Unreal Monterrey - Jul 31 2026
 
 **Research & Documentation**
 
-Ghost.SOC Whitepaper (ES) — Technical paper prepared for 8.8 Cybersecurity Conference Unreal 2026 and Ekoparty Argentina 2026
+Ghost.SOC Whitepaper (ES) — Technical paper prepared for 8.8 Cybersecurity Conference Unreal Monterrey 2026 (July 31st). Presented also at ISACA Technical Talks (Oct 1st.)
 LATAM Threat Context — Regional statistics and sources
 Detection Rule Analysis — Error patterns and curation of 20 analyzed rules filtered by the Top ATT&CK TTPs per industry, selected to address the LATAM Threat Context and attack statistic trends.
 
